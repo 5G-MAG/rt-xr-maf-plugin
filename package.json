@@ -1,0 +1,13 @@
+{
+    "name": "rt.xr.maf",
+    "version": "0.0.1",
+    "description": "A Unity3D package implementing Media Access Function API specified by in ISOIEC 23090-14",
+    "displayName": "rt.xr.maf",
+    "unity": "2021.3",
+    "author": {
+        "name": "Nils Duval"
+    },
+    "type": "library",
+    "license": "LICENSE.md",
+    "licensesUrl": "https://www.5g-mag.com/license"
+}
