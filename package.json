@@ -5,7 +5,8 @@
     "displayName": "rt.xr.maf",
     "unity": "2021.3",
     "author": {
-        "name": "Nils Duval"
+        "name": "Nils Duval",
+        "email": "nils.duval@motionspell.com"
     },
     "type": "library",
     "license": "LICENSE.md",
