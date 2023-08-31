@@ -24,7 +24,7 @@ The core MAF & media pipeline factory library source is currently being developp
 - `Lib/bin` directory contains precompiled SWIG generated wrapper.
 - `Plugins` directory contains precompiled media pipelines.
 
-These are artifacts generated from the [libmaf repository](https://github.com/5G-MAG/rt-xr-maf-native).
+These are artifacts generated from the [libmaf repository ba6fc55](https://github.com/5G-MAG/rt-xr-maf-native/releases/tag/2).
 
 ### Dependencies
 

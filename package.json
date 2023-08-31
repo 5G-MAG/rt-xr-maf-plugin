@@ -1,6 +1,6 @@
 {
     "name": "rt.xr.maf",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A Unity3D package implementing Media Access Function API specified by in ISOIEC 23090-14",
     "displayName": "rt.xr.maf",
     "unity": "2021.3",
