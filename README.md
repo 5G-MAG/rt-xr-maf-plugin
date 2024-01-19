@@ -1,9 +1,12 @@
 # Media Access Function API Unity3D package
 
-This repository provides a Unity3D package implementing media pipeline API specified by in ISOIEC 23090-14.
+## Usage
 
+This repository is a dependency of the [rt-xr-unity-player](https://github.com/5G-MAG/rt-xr-unity-player).
 
-## Downloading 
+It provides build artifacts from [rt-xr-maf-native](https://github.com/5G-MAG/rt-xr-maf-native) and was meant to be used in as an extension package to Unity3D projects.
+
+### Adding to Unity projects
 
 The package can be added to a Unity3D project using the package manager UI, by using ["Add package from git URL"](https://docs.unity3d.com/Manual/upm-ui-giturl.html) to download and add it to the project's `Packages` directory.
 
@@ -11,25 +14,16 @@ Alternatively, it is possible to simply clone the repository to a local director
 then chose to [Add package from disk](https://docs.unity3d.com/Manual/upm-ui-local.html).
 
 
-## Building
-
-The repository is meant to be compiled as part of a unity project.
-The core MAF & media pipeline factory library source is currently being developped and tested on windows.
-
-
 ## Package content
 
-**Do not edit source code in these directories directly:**
-- `Lib/maf` directory contains SWIG generated C# bindings.
-- `Lib/bin` directory contains precompiled SWIG generated wrapper.
-- `Plugins` directory contains precompiled media pipelines.
+**/!\\ Do not edit source code in these directories directly /!\\**
 
-These are artifacts generated from the [libmaf repository ba6fc55](https://github.com/5G-MAG/rt-xr-maf-native/releases/tag/2).
 
-### Dependencies
+## Tests
 
-`Dependencies` directory contains system dependencies for pre-compiled plugins
+Tests run in Unity3D's test runner.
 
+## Dependencies
 
 #### ffmpeg libraries
 
@@ -39,16 +33,12 @@ The pre-compiled ffmpeg libraries are [compiled to comply with LGPL](https://ffm
 To use additional codec libraries (such as libx264 or libx265), make sure to link against your own ffmpeg libraries when building your project.
 
 
-## Tests
-
-Tests run in Unity3D's test runner.
-
-
 ## Implementation notes
 
 During initial development of this package, the C# bindings have been provided a clear separation between the media pipeline implementation in native code, and Unity3D managed code.
 
 However this approach has limitations, and it should be emphasized that a Unity native plugin can use the MAF API directly in native code.
+
 
 ## License
 
