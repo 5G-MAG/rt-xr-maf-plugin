@@ -4,7 +4,7 @@
 
 This repository is a dependency of the [rt-xr-unity-player](https://github.com/5G-MAG/rt-xr-unity-player).
 
-It provides build artifacts from [rt-xr-maf-native](https://github.com/5G-MAG/rt-xr-maf-native) and was meant to be used in as an extension package to Unity3D projects.
+It provides build artifacts from [rt-xr-maf-native](https://github.com/5G-MAG/rt-xr-maf-native).
 
 ### Adding to Unity projects
 

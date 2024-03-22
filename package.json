@@ -1,9 +1,9 @@
 {
     "name": "rt.xr.maf",
-    "version": "0.0.3",
-    "description": "A Unity3D package implementing Media Access Function API specified by in ISOIEC 23090-14",
+    "version": "0.0.5",
+    "description": "A C++ implementation of the Media Access Function API specified by in ISOIEC 23090-14.",
     "displayName": "rt.xr.maf",
-    "unity": "2021.3",
+    "unity": "2022.3",
     "author": {
         "name": "Nils Duval",
         "email": "nils.duval@motionspell.com"
