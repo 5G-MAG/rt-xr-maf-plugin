@@ -1,1 +1,4 @@
 **/*.meta
+!dependencies/**/*.meta
+!dependencies/**/*.meta
+!**/bin/*.meta
