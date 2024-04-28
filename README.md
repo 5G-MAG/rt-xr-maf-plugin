@@ -6,9 +6,7 @@
 </p>
 
 ## Introduction
-This repository is a dependency of the [rt-xr-unity-player](https://github.com/5G-MAG/rt-xr-unity-player).
-
-It provides build artifacts from [rt-xr-maf-native](https://github.com/5G-MAG/rt-xr-maf-native).
+This repository is a dependency of the [rt-xr-unity-player](https://github.com/5G-MAG/rt-xr-unity-player). It provides build artifacts from [rt-xr-maf-native](https://github.com/5G-MAG/rt-xr-maf-native).
 
 Additional information can be found at: https://5g-mag.github.io/Getting-Started/pages/xr-media-integration-in-5g/
 
